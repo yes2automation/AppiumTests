@@ -1,0 +1,4 @@
+TestCases\HTMLunitDriverTest.class
+AppiumTests\clickTest.class
+AppiumTests\Base.class
+TestCases\WebDriverManagerTest.class
