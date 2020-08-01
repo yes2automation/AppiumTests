@@ -1,9 +1,14 @@
 package TestCases;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
 import org.openqa.selenium.htmlunit.HtmlUnitDriver;
@@ -11,7 +16,7 @@ import org.testng.annotations.Test;
 
 public class HTMLunitDriverTest {
   @Test
-  public void f() {
+  public void f() throws IOException {
 	  //setting up HTML unit driver
       WebDriver driver = new HtmlUnitDriver();
       
